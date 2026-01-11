@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ayush Prajapati | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+    <a href="#home" class="logo">
+        <img src="IMG_20251229_203951_035.webp" alt="Ayush Prajapati" class="logo-img">
+        <span class="logo-text">Ayush Prajapati</span>
+    </a>
+
+    <!-- Mobile nav toggle -->
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="hamburger"></span>
+    </button>
+
+    <ul class="nav-links">
+        <li><a href="#home" data-target="home" class="nav-link">Home</a></li>
+        <li><a href="#about" data-target="about" class="nav-link">About</a></li>
+        <li><a href="#skills" data-target="skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" data-target="projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" data-target="contact" class="nav-link">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- Home -->
+<section id="home" class="home">
+    <h1>Hi, I'm <span>Ayush Prajapati</span></h1>
+    <h3>BCA Student | AI & ML Enthusiast</h3>
+    <p>I build logical programs and beginner-friendly projects.</p>
+    <a href="#projects" class="btn">View Projects</a>
+</section>
+
+<!-- About -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a BCA student specializing in Artificial Intelligence and Machine Learning.
+        I am learning Python basics, problem-solving, and building beginner-friendly projects to
+        become an AI/ML developer.
+    </p>
+</section>
+
+<!-- Skills -->
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Python (Basics)</div>
+    </div>
+</section>
+
+<!-- Projects -->
+<section id="projects">
+    <div class="big-heading-wrap">
+        <h1 class="big-heading">Featured Projects</h1>
+    </div>
+    <h2>Projects</h2>
+
+    <div class="project-card">
+        <h3>Personal Portfolio</h3>
+        <p>My personal responsive portfolio using HTML, CSS and JavaScript.</p>
+        <span>Tech: HTML, CSS, JS</span>
+    </div>
+
+    <div class="project-card">
+        <h3>Weather App</h3>
+        <p>Simple weather app that fetches data from an API and shows current conditions.</p>
+        <span>Tech: HTML, CSS, JavaScript, OpenWeather API</span>
+    </div>
+
+    <div class="project-card">
+        <h3>Tic Tac Toe</h3>
+        <p>Interactive Tic Tac Toe game with two-player mode and win detection.</p>
+        <span>Tech: HTML, CSS, JavaScript</span>
+    </div>
+
+</section>
+
+<!-- Contact -->
+<section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-links">
+        <a class="contact-link email" href="mailto:ayushprajapati0198@gmail.com" aria-label="Send email to Ayush">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 4.5A2.5 2.5 0 014.5 2h15A2.5 2.5 0 0122 4.5v15a2.5 2.5 0 01-2.5 2.5h-15A2.5 2.5 0 012 19.5v-15zM4.5 4A.5.5 0 004 4.5V6l8 4.5L20 6V4.5a.5.5 0 00-.5-.5h-15zM20 8.18l-7.22 4.08a1 1 0 01-1.06 0L4 8.18V19.5a.5.5 0 00.5.5h15a.5.5 0 00.5-.5V8.18z"/></svg>
+            <span class="label">ayushprajapati0198@gmail.com</span>
+        </a>
+        <a class="contact-link linkedin" href="https://linkedin.com/in/ayush-prajapati-40a20a312" target="_blank" rel="noopener noreferrer" aria-label="Ayush on LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5A2.5 2.5 0 102 6a2.5 2.5 0 002.98-2.5zM3 8.98h4v12H3v-12zM9 8.98h3.6v1.64h.05c.5-.95 1.72-1.95 3.54-1.95 3.79 0 4.49 2.5 4.49 5.74V21h-4v-5.17c0-1.23-.02-2.81-1.71-2.81-1.71 0-1.97 1.33-1.97 2.7V21H9v-12z"/></svg>
+            <span class="label">linkedin.com/in/ayush-prajapati-40a20a312</span>
+        </a>
+        <a class="contact-link github" href="https://github.com/ayush-0198" target="_blank" rel="noopener noreferrer" aria-label="Ayush on GitHub">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.38 7.86 10.9.57.1.78-.25.78-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.38-3.88-1.38-.52-1.33-1.27-1.68-1.27-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.24 3.33.95.1-.74.4-1.24.72-1.53-2.55-.29-5.24-1.28-5.24-5.71 0-1.26.45-2.29 1.18-3.1-.12-.29-.52-1.47.11-3.06 0 0 .95-.3 3.12 1.18a10.9 10.9 0 012.84-.38c.96 0 1.93.13 2.84.38 2.17-1.48 3.12-1.18 3.12-1.18.63 1.59.23 2.77.11 3.06.73.81 1.18 1.84 1.18 3.1 0 4.44-2.69 5.41-5.25 5.7.41.35.77 1.04.77 2.1 0 1.52-.01 2.75-.01 3.12 0 .31.21.67.79.56A10.53 10.53 0 0023.5 12C23.5 5.73 18.27.5 12 .5z"/></svg>
+            <span class="label">github.com/ayush-0198</span>
+        </a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Ayush Prajapati </p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
